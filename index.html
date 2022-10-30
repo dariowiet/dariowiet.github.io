@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/estilo.css">
+    <link rel="icon" href="img/pesa_para_pestaña.ico"/>
+    <script src="https://kit.fontawesome.com/6f161c6cfe.js" crossorigin="anonymous"></script>  
+    <title>Entrenamiento con kettlebell</title>
+</head>
+<body>
+	<div class="padre">
+		<!--<header class="header"><h1 id="titulo">Entrenamiento con Kettlebells</h1>
+            <nav>
+                <br>
+                <a class="nav" href="index.html">Home</a>
+                <a class="nav" href="about.html">Clima</a>
+                <a class="nav" href="form.html">Regístrese</a>
+                <a class="nav" href="location.html">Sucursales</a>
+            
+            </nav>
+        </header>-->
+        <header id="idheader">
+            
+        </header>
+		<article class="articulo"><h2 id="titulo2">Vení a entrenar con nosotros</h2>
+            <p>
+            Te proponemos éste entrenamiento revolucionario. Tenemos un gimnasio cerca de tu casa y cerca de tu trabajo con todas las comodidades.          
+            </p>
+        
+            <div id="fondo2">
+                <h2>Rutina Sugerida</h2>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/mQDxf8fuMpk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <div id="fondo3">
+                <h3 class="h3">Pesa de 32kg que vas a usar a partir del 2 mes!</h3>
+                    <img class="imagen3" src="img/pesade22.jpg" alt="pesade22" width="300"/><br>
+            </div>            
+            <br>
+
+            <div>
+                <article class="historia"><h2>Historia de las Kettlebell</h2>
+                    <p>En los comienzos etc rellenar con las <span>primeras kettlebells</span> existentes según los registros históricos <br> El Origen del Kettlebell y la historia del Entrenamiento con Pesas Rusas, es uno de los puntos  más desconocidos de esta actividad que día a día suma nuevos adeptos.
+                    Si bien no es necesario conocer su  historia para obtener los beneficios de su práctica, saber su origen y comprender el contexto de su desarrollo, nos ayuda a desmitificarlo, alcanzando una mirada objetiva.
+                    Así, seremos capaces de indagar en el porqué de sus detalles técnicos, descubrir las enseñanzas de sus pioneros y aplicar los conceptos originales que hacen del Kettlebell, una de las herramientas más valiosas para el entrenamiento físico.</p>           
+                    </p>       
+            </div>
+            <div id="fondo1"></div>
+            <br>                     
+            
+        </article>        
+        
+		<aside class="aside izquierda">
+            <article>
+                <div id="pestaña">
+                <!--pongo una indicación a otra pestaña de html-->
+                <a href="EJEMPLO-1.html" target="_blank">Otro enlace de la pagina en pestaña</a>
+                <br>
+                <a href="EJEMPLO-1.html">otro enlace en misma pagina</a>
+                <br>
+                <a href="img/pesade22.jpg" download>descarga foto pesa</a>
+                <!--ahi vincule el doc html con archivos directos. abre no descarga aún-->
+                </div>
+            </article>
+            <article>
+                <script>
+                    const options = {
+                        method: 'GET',
+                        headers: {
+                            "X-API-KEY":"HTkuBHsB4b5iUphRwx8DCbtElM7s9qTyxOqa3pvDst0"
+                        }
+                    };
+
+                    fetch('https://api.newscatcherapi.com/v2/latest_headlines?countries=AR&lang=es&page_size=1&topic=sport', options)
+                        .then(response => response.json())
+                        .then(response => console.log(response.json))
+                        .catch(err => console.error(err));                
+                </script>
+            </article>
+        </aside>
+		<aside class="aside derecha">
+            <article>
+                <div>
+                    <h3><b>Pesas en venta</b></h3>
+                    <table id="tablaPesos" >
+                        <thead>
+                            <th>Peso</th>
+                            <th>Precio</th>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>10kg</td>
+                            <td>5USD</td>
+                        </tr>
+                        <tr>
+                            <td>16kg</td>
+                            <td>10USD</td>
+                        </tr>
+                        <tr>
+                            <td>20kg</td>
+                            <td>15USD</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div><h3>Colores a elección</h3>
+                    <ul id="listaColor" >
+                        <li>Roja</li>
+                        <li>Negra</li>
+                        <li>Verde</li>
+                    </ul>
+                    <br>
+                    <a href="https://listado.mercadolibre.com.ar/pesas-rusas">Comparar Precios</a>
+                </div>
+            </article>    
+            <div class="aside derecha"><h3>Próximamente nuevos colores!!</h3>
+            </div>
+        </aside>
+		<!--<footer class="footer">
+            <a class="contacto" href="mailto:jpserra@live.com.ar">Contacto</a>
+            <a class="arriba" href="#titulo">Arriba</a>
+            <a class="redsoc" href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a class="redsoc" href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a class="redsoc" href="https://www.pinterest.com" target="_blank"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+            <br>
+            <p class="derechos">Todos los derechos reservados.</p>
+        </footer> !-->
+        <footer id="idfooter">
+
+        </footer>
+	</div>
+    <script src="JS/index.js"></script>
+</body>
+</html>
